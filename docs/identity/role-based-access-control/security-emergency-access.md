@@ -169,6 +169,8 @@ Organizations should monitor sign-in and audit log activity from the emergency a
 
 1. To turn off alerts for a while, select the **Suppress Alerts** check box and enter the wait duration before alerting again, and then select **Save**.
 
+1. If you select to use a managed identity on the alert rule, remember that you will need to assign the Log Analytics reader role so the managed identity can read the log analytics metrics.
+
 1. Select **Create alert rule**.
 
 ### Create an action group
